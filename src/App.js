@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Footer from './Components/Footer';
-import PreFooter from './Components/PreFooter';
+import Prefooter from './Components/PreFooter';
+import Livarae from './Components/Livrare';
 
 function App() {
   return (
     <div className="App">
-      <PreFooter />
+      <Livarae/>
+      <Prefooter/>
       <Footer/>
     </div>
   );
